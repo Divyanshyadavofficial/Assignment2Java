@@ -1,7 +1,10 @@
 public class FibonacciSeries {
     public static void main(String[] args) {
-       int result = fibo(5);
-        System.out.println(result);
+       int n = 5;
+        System.out.print("Fibonacci series: ");
+        for (int i = 0; i < n; i++) {
+            System.out.print(fibo(i)+ " ");
+        }
 
     }
     static int fibo(int n){
@@ -13,7 +16,7 @@ public class FibonacciSeries {
             return 1;
         }
         else {
-            return n*fibo(n-1);
+            return fibo(n-1)+fibo(n-2);
         }
     }
 }
