@@ -9,6 +9,7 @@ public class Factorial {
         int n = input.nextInt();
         double factorialn = factorial(n);
         System.out.printf("the factorial of a number is %.2f ",factorialn);
+        input.close();
     }
     static  int factorial(int n){
         if(n==0){

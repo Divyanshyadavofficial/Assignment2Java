@@ -23,5 +23,6 @@ public class SumTillN {
 
         }
         System.out.println(sum);
+        input.close();
     }
 }

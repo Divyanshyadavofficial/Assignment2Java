@@ -12,6 +12,7 @@ public class Fibo {
             System.out.print(fib(i)+ " ");
 
         }
+        input.close();
     }
     static int fib(int n){
         if(n==0||n==1){

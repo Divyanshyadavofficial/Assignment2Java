@@ -10,6 +10,7 @@ public class CommissionPercentage {
         double totalSales = input.nextDouble();
         double commission  = input.nextDouble();
         commissionAmt(totalSales,commission);
+        input.close();
 
     }
     static void commissionAmt(double totalSales,double commission){

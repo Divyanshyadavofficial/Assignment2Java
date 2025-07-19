@@ -10,6 +10,7 @@ public class BattingAverage {
         System.out.print("Enter the number of times the player is out: ");
         double out = input.nextDouble();
         batting(totalRuns,out);
+        input.close();
     }
     static void batting(double totalRuns,double out){
         double avg = totalRuns/out;

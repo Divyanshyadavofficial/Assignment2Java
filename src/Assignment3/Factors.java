@@ -9,6 +9,7 @@ public class Factors {
         System.out.println("enter the number to find its factors ");
         int n = input.nextInt();
         factors(n);
+        input.close();
     }
     static void factors(int n){
         ArrayList<Integer> list = new ArrayList<>();

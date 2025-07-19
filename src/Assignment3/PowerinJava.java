@@ -9,6 +9,7 @@ public class PowerinJava {
         double base = input.nextDouble();
         double exponent = input.nextDouble();
         power(base,exponent);
+        input.close();
 
     }
     static void power(double b, double e){

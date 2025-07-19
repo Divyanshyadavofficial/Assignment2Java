@@ -9,6 +9,7 @@ public class Discount {
         double originalPrice = input.nextDouble();
         double discount = input.nextDouble();
         calc(originalPrice,discount);
+        input.close();
     }
     static void calc(double originalPrice,double discount){
         double discountPrice = (originalPrice*discount)/100;

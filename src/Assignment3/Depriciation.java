@@ -15,6 +15,7 @@ public class Depriciation {
         double n = input.nextDouble();
 
         dep(originalVal,rate,n);
+        input.close();
     }
     static void dep(double originalVal,double rate,double n){
         double value = originalVal-(rate*n);

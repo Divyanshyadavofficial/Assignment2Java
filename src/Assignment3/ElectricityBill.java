@@ -8,6 +8,7 @@ public class ElectricityBill {
         System.out.print("Enter the total number of units consumed: ");
         double units = input.nextDouble();
         Electricity(units);
+        input.close();
     }
 
     static void Electricity(double units){
@@ -33,6 +34,7 @@ public class ElectricityBill {
         }
         System.out.printf("the total bill is %.2f",totalBill);
         System.out.println();
+
 
 
     }

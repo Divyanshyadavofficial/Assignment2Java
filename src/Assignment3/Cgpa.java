@@ -38,6 +38,8 @@ public class Cgpa {
         if(E<33){
             System.out.println("you have a reappear in subject E ");
         }
+        input.close();
+
 
     }
 }

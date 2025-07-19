@@ -23,6 +23,7 @@ public class AverageOfnNumbers {
             count++;
         }
         System.out.printf("the Average till n numbers is %.2f ",(sum/count));
+        input.close();
 
     }
 }
