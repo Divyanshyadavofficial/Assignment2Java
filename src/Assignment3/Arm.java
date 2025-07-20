@@ -9,6 +9,7 @@ public class Arm {
         int n =  input.nextInt();
         boolean result = armstrong(n);
         System.out.println(result);
+        input.close();
 
     }
     static boolean armstrong(int n){
